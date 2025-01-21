@@ -313,6 +313,10 @@ footer {
     color: white;
 }
 
+.footer-container p {
+    opacity: 70%;
+}
+
 .footer-logo {
     display: flex;
 }
@@ -334,93 +338,174 @@ footer {
 }
 
 /* Responsive Design */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 576px) {
+
+    /* Navbar */
     .navbar {
-        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 15px 20px;
+        border-bottom: 1px solid #ffa500;
+        gap: 300px;
     }
 
-    .nav-links {
-        flex-direction: column;
-        margin-top: 10px;
-    }
-
-    .banner {
-        flex-direction: column;
-        text-align: center;
-        gap: 20px;
-    }
-
-    .banner-text h1 {
-        font-size: 2.5rem;
-    }
-
-    .banner-text p {
-        font-size: 1rem;
-    }
-
-    .cards {
-        flex-wrap: wrap;
-        gap: 20px;
-    }
-
-    .card {
-        width: 90%;
-    }
-}
-
-@media screen and (max-width: 768px) {
     .logo-img {
-        width: 30px;
-        height: 30px;
+        width: 70px;
+        height: 70px;
+        margin-right: 10px;
+        margin-bottom: 10px;
     }
 
     .logo-text {
-        font-size: 1rem;
+        display: none;
     }
 
-    .nav-link {
-        margin: 5px 0;
-        font-size: 0.9rem;
+    .nav-links {
+        display: none;
     }
 
     .contact-btn {
-        padding: 5px 20px;
-        font-size: 0.9rem;
+        text-decoration: none;
+        background-color: #ffa500;
+        color: white;
+        padding: 10px 40px;
+        border-radius: 12px;
+        font-size: 1rem;
     }
 
-    .banner-text h1 {
-        font-size: 2rem;
-    }
-
-    .banner-text p {
-        font-size: 0.9rem;
-    }
-
-    .cards {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .card {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 480px) {
+    /* Banner */
     .banner {
-        flex-direction: column;
-        gap: 10px;
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        margin-bottom: 60px;
     }
 
     .banner-text h1 {
-        font-size: 1.5rem;
+        font-size: 3.5rem;
     }
 
     .banner-text p {
-        font-size: 0.8rem;
+        font-size: 1.25rem;
+        opacity: 80%;
     }
 
-    .card {
-        padding: 20px;
+    .banner-btn {
+        text-decoration: none;
+        background-color: black;
+        color: white;
+        padding: 10px 40px;
+        border-radius: 12px;
+        font-size: 1rem;
     }
+
+    #empowering {
+        color: orange;
+    }
+
+    #vision {
+        color: skyblue;
+    }
+
+    /* Curriculum */
+    .cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 28px;
+    }
+
+    /* Stories */
+    .stories button {
+        display: flex;
+        justify-content: center;
+        margin: 40px;
+    }
+
+    .story-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .stories img {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        overflow: hidden;
+        width: 250px;
+        height: 130px;
+    }
+
+    .story-1 {
+        display: none;
+    }
+
+    .story-card {
+        width: 250px;
+        height: 290px;
+        box-shadow: 0 2px 10px rgba(80, 77, 77, 0.2);
+        border-radius: 16px;
+        position: relative;
+        background-color: white;
+    }
+
+    .story-card button {
+        padding: 10px 40px;
+        border-radius: 47px;
+        border: none;
+        background-color: #3CD8E8;
+        color: white;
+        position: absolute;
+        left: 0px;
+        top: 60px;
+    }
+
+    .story-cards {
+        gap: 20px;
+    }
+
+    .stories-button {
+        text-decoration: none;
+        background-color: black;
+        color: white;
+        padding: 10px 40px;
+        border-radius: 12px;
+        font-size: 1rem;
+    }
+
+    /* Footer */
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 30px;
+        justify-content: center;
+        color: white;
+    }
+
+    .footer-container p {
+        opacity: 70%;
+    }
+
+    .footer-logo {
+        display: flex;
+    }
+
+    .footer-logo img {
+        width: 82.9px;
+        height: 81.65px;
+    }
+
+    .footer-about-school {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .footer-about-school a {
+        text-decoration: none;
+        color: white;
+    }
+
 }
