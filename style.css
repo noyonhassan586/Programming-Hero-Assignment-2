@@ -65,6 +65,12 @@ body {
     font-size: 1rem;
 }
 
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    display: none;
+    visibility: hidden;
+}
+
 /* Banner */
 .banner {
     display: flex;
@@ -366,12 +372,42 @@ footer {
     }
 
     .contact-btn {
-        text-decoration: none;
-        background-color: #ffa500;
-        color: white;
-        padding: 10px 40px;
-        border-radius: 12px;
-        font-size: 1rem;
+        display: none;
+    }
+
+    input[type="checkbox"] {
+        -webkit-appearance: none;
+        display: none;
+        visibility: hidden;
+    }
+
+    .bar {
+        display: block;
+        position: relative;
+        cursor: pointer;
+        width: 50px;
+        height: 40px;
+    }
+
+    .bar span {
+        position: absolute;
+        width: 45px;
+        height: 7px;
+        background: black;
+        border-radius: 100px;
+        display: inline-block;
+    }
+
+    .bar span.top {
+        top: 0;
+    }
+
+    .bar span.middle {
+        top: 17px;
+    }
+
+    .bar span.bottom {
+        bottom: 0;
     }
 
     /* Banner */
