@@ -280,6 +280,10 @@ nav label {
     background-color: white;
 }
 
+#green button {
+    background-color: #95B226;
+}
+
 .story-card button {
     padding: 10px 20px;
     border-radius: 47px;
