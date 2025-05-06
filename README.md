@@ -40,10 +40,6 @@ A responsive website for a fictional kids' school built using **HTML5** and **ra
 
 - Optimized for **mobile**, **tablet**, and **desktop** screen sizes.
 
-## 📷 Screenshots
-
-> *(You can add screenshots here using Markdown image links if you'd like to showcase visuals of your project.)*
-
 ## 🚀 Getting Started
 
 To run this project locally:
