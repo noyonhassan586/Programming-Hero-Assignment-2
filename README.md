@@ -1,54 +1,53 @@
-# Kids School Website
+# 🎒 Kids School Website
 
-This is the home page of a Kids School website created for Assignment-2 using HTML and CSS.
+A responsive website for a fictional kids' school built using **HTML5** and **raw CSS3**, designed to be mobile-first and user-friendly. This is part of a web development learning project.
 
-## Live Demo
+## 🌐 Live Site
 
-You can view the live project here: [Kids School Assignment-2](https://noyonhassan586.github.io/Programming-Hero-Assignment-2/)
+🔗 [Visit the Live Website](https://rb.gy/0yqi1k)
 
-## Features
+## 📁 Repository
 
-- **Navbar**: Includes a responsive navigation bar to access different sections.
-- **Main Section**: The main content area for displaying important information.
-- **Footer**: Contains footer details such as copyright information.
-- **Responsiveness**: The design is responsive for devices with a minimum width of 640px.
-- **External CSS**: The styling is done using an external CSS file (`style.css`).
-- **Assets Folder**: Includes images and other resources used in the project.
+📂 [GitHub Repository](https://github.com/noyonhassan586/Programming-Hero-Assignment-2)
 
-## Project Structure
+## 📌 Features
 
-```
-Kids-School/
-│
-├── assets/            # Folder for images and other assets
-│
-├── index.html         # The main HTML file
-│
-└── style.css          # External CSS file for styling
-```
+- ✅ **Responsive Navbar**  
+  A clean and mobile-friendly navigation bar to explore all main sections.
 
-## How to Run Locally
+- 📢 **Top Marquee**  
+  An attention-grabbing scrolling marquee to highlight important updates or messages.
 
-1. Clone the repository:
-   ```
-   git clone https://github.com/noyonhassan586/Programming-Hero-Assignment-2.git
-   ```
+- 🖼️ **Banner Section**  
+  A visually engaging banner section to showcase the school's mission or environment.
 
-2. Navigate to the project directory:
-   ```
-   cd Programming-Hero-Assignment-2
-   ```
+- 📘 **Standard Curriculum Section**  
+  Highlights the curriculum offered, tailored to children's educational needs.
 
-3. Open `index.html` in any browser to view the project.
+- 📚 **Our Stories Section**  
+  Tells the story of the school and shares experiences to build trust with parents.
 
-## Technologies Used
+- 🔗 **Footer with Social Links**  
+  A structured footer including social media links and essential navigation items.
+
+## 🛠️ Technologies Used
 
 - HTML5
-- CSS3
+- CSS3 (Raw, without any framework)
+- Responsive design techniques (Media queries, Flexbox)
 
-## License
+## 📱 Responsiveness
 
-This project is open-source and available under the MIT License.
+- Optimized for **mobile**, **tablet**, and **desktop** screen sizes.
 
----
-Made By Md. Noyon Hassan
+## 📷 Screenshots
+
+> *(You can add screenshots here using Markdown image links if you'd like to showcase visuals of your project.)*
+
+## 🚀 Getting Started
+
+To run this project locally:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/noyonhassan586/Programming-Hero-Assignment-2
